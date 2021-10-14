@@ -1,4 +1,4 @@
-package com.billyluisneedham.myapplication
+package com.billyluisneedham.thehouseapp
 
 import org.junit.Test
 

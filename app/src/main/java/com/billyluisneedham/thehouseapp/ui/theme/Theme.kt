@@ -1,4 +1,4 @@
-package com.billyluisneedham.myapplication.ui.theme
+package com.billyluisneedham.thehouseapp.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme

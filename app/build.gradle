@@ -4,14 +4,14 @@ plugins {
 }
 
 android {
-    compileSdk 31
+    compileSdk libs.versions.compileSdk.get() as Integer
 
     defaultConfig {
-        applicationId "com.billyluisneedham.myapplication"
-        minSdk 21
-        targetSdk 31
-        versionCode 1
-        versionName "1.0"
+        applicationId libs.versions.applicationId.get()
+        minSdk libs.versions.minSdk.get() as Integer
+        targetSdk libs.versions.targetSdk.get() as Integer
+        versionCode libs.versions.appVersionCode.get() as Integer
+        versionName libs.versions.appVersionName.get()
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -37,8 +37,8 @@ android {
         compose true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion compose_version
-        kotlinCompilerVersion '1.5.21'
+        kotlinCompilerExtensionVersion libs.versions.compose.get()
+        kotlinCompilerVersion libs.versions.kotlin.get()
     }
     packagingOptions {
         resources {

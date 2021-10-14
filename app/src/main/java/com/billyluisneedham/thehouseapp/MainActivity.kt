@@ -1,4 +1,4 @@
-package com.billyluisneedham.myapplication
+package com.billyluisneedham.thehouseapp
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -8,7 +8,7 @@ import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
-import com.billyluisneedham.myapplication.ui.theme.TheHouseAppTheme
+import com.billyluisneedham.thehouseapp.ui.theme.TheHouseAppTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
