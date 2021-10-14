@@ -1,0 +1,12 @@
+[versions]
+
+kotlin = "1.5.21"
+sqldelight = "1.5.2"
+
+[libraries]
+
+kotlin-gradlePlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.21", version.ref = "kotlin" }
+
+sqldelight-gradlePlugin = { module = "com.squareup.sqldelight:gradle-plugin", version.ref = "sqldelight" }
+
+[bundles]
